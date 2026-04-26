@@ -4,7 +4,7 @@
 
 ---
 
-## 👨‍🎓 Integrantes
+## Integrantes
 
 * Bruno Ventura — RM 568316
 * Diogo Henrique — RM 568541
