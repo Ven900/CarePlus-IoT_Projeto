@@ -16,7 +16,7 @@
 
 ---
 
-## 🚀 Visão Geral
+##  Visão Geral
 
 O **CarePlus** é um sistema de monitoramento de saúde baseado em IoT (Internet das Coisas), desenvolvido com ESP32.
 
@@ -26,7 +26,7 @@ Além disso, o dispositivo realiza **processamento local (Edge Computing)**, per
 
 ---
 
-## 🎯 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Criar um sistema inteligente que demonstre:
 
