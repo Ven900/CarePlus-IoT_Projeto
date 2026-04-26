@@ -37,7 +37,7 @@ Criar um sistema inteligente que demonstre:
 
 ---
 
-## 🧱 Arquitetura da Solução
+##  Arquitetura da Solução
 
 ```
 [SENSOR DHT22]
