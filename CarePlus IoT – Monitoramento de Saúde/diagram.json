@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "author": "CarePlus PRO - Venicio",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": 0 },
+
+    { "type": "wokwi-dht22", "id": "dht", "top": -120, "left": 130 },
+
+    { "type": "wokwi-led", "id": "led", "top": 120, "left": 220 },
+
+    { "type": "wokwi-buzzer", "id": "buzzer", "top": 140, "left": 280 },
+
+    { "type": "wokwi-pushbutton", "id": "btn", "top": 140, "left": -60 },
+
+    { "type": "wokwi-ssd1306", "id": "oled", "top": -150, "left": -120 }
+  ],
+  "connections": [
+
+    [ "dht:VCC", "esp:3V3", "red" ],
+    [ "dht:GND", "esp:GND.1", "black" ],
+    [ "dht:SDA", "esp:15", "green" ],
+
+ 
+    [ "led:A", "esp:2", "green" ],
+    [ "led:C", "esp:GND.1", "black" ],
+
+  
+    [ "buzzer:1", "esp:4", "yellow" ],
+    [ "buzzer:2", "esp:GND.1", "black" ],
+
+  
+    [ "btn:1", "esp:18", "blue" ],
+    [ "btn:2", "esp:GND.1", "black" ],
+
+  
+    [ "oled:VCC", "esp:3V3", "red" ],
+    [ "oled:GND", "esp:GND.1", "black" ],
+    [ "oled:SDA", "esp:21", "green" ],
+    [ "oled:SCL", "esp:22", "green" ],
+
+    [ "esp:TX", "$serialMonitor:RX", "" ],
+    [ "esp:RX", "$serialMonitor:TX", "" ]
+  ]
+}
