@@ -133,7 +133,7 @@ careplus-iot/
 O projeto pode ser executado no Wokwi:
 
 🔗 Adicione aqui o link do Wokwi
-
+https://wokwi.com/projects/462317599921538049
 ---
 
 ## 💻 Repositório
