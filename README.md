@@ -140,7 +140,7 @@ https://wokwi.com/projects/462317599921538049
 
 ## 💻 Repositório
 
-Este repositório contém:
+Este repositório contém:https://github.com/Ven900/CarePlus-IoT_Projeto.git
 
 * Código completo
 * Arquitetura
