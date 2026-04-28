@@ -26,8 +26,7 @@ Além disso, o dispositivo realiza **processamento local (Edge Computing)**, per
 
 ---
 
-##  Objetivo do Projeto
-
+## 🎯 Objetivo do Projeto
 Criar um sistema inteligente que demonstre:
 
 * Monitoramento de saúde em tempo real
@@ -37,8 +36,7 @@ Criar um sistema inteligente que demonstre:
 
 ---
 
-##  Arquitetura da Solução
-
+## 🧱 Arquitetura da Solução
 ```
 [SENSOR DHT22]
         ↓
@@ -127,7 +125,11 @@ careplus-iot/
 ```
 
 ---
+## 🔗 Links do Projeto
 
+- 🎥 Vídeo (YouTube):https://youtu.be/EPIGqlFVmfw
+
+---
 ## 🧪 Simulação
 
 O projeto pode ser executado no Wokwi:
